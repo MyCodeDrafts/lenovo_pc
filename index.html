@@ -9,14 +9,39 @@
 </head>
 <body>
     <header>
-        <nav class="menu-navegacao">
-            <img src="imagens/barber-logo1.png" alt="Logo">
+        <nav class="container">
+            
             <ul>
-                <li><a href="" class="menu-link">Home</a></li>
-                <li><a href="" class="menu-link">Produtos</a></li>
-                <li><a href="" class="menu-link">Contatos</a></li>
+                <li class="menu-navegacao">
+                    <a href="#" class="menu-link">Home</a>
+                </li>
+
+                <li class="menu-navegacao">
+                    <a href="#" class="menu-link">Produtos</a>
+                </li>
+   
+                <li class="menu-navegacao">
+                    <a href="#" class="menu-link">Contatos</a>
+                </li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <label for="">Nome:</label>
+                <input type="text" name="text" id="text"><br>
+
+                <label for="">Telefone:</label>
+                <input type="tel" name="n" id="telefone" placeholder="(xx)9 9999 99 99"> <br>
+                <label for="">Email: </label>
+                <input type="email" name="n" id="email"><br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea> <br>
+                <button>Enviar</button>
+            </fieldset>
+
+        </form>
+    </main>
 </body>
 </html>
