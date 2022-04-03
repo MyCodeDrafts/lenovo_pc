@@ -1,0 +1,26 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.escolha {
+    width: 140px;
+    height: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
+}
+
+
+.btn {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin: 15px 0;
+
+    cursor: pointer;
+}
+
+
+i {
+    font-size: 20px;
+}
